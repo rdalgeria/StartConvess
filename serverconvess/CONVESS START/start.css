@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #836853;
+}
+
+.messpage::-webkit-scrollbar,.homepage::-webkit-scrollbar,.profilepage::-webkit-scrollbar,.notipage::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.messpage::-webkit-scrollbar-button,.homepage::-webkit-scrollbar-button, .profilepage::-webkit-scrollbar-button, .notipage::-webkit-scrollbar-button {
+    background-color: transparent;
+}
+
+.messpage::-webkit-scrollbar-corner,.homepage::-webkit-scrollbar-corner,.messpage::-webkit-scrollbar-corner,.notipage::-webkit-scrollbar-corner{
+    background-color: transparent;
+}
+
+
+header {
+    background: linear-gradient(90deg ,#aa8c88, #ddc1bd);
+    display: flex;
+    padding: 0px 20px;
+}
+
+.logos {
+    display: flex;
+}
+
+.search {
+    background-color: beige;
+    height: 26px;
+    align-self: center;
+    border-radius: 20px;
+    padding: 3px 5px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 3px;
+    font-size: 15px;
+    color: #836853;
+}
+
+.menu {
+    align-self: center;
+    margin-left: 450px;
+}
+
+.menu img:hover {
+    content: url("http://localhost//serverconvess/CONVESS%20START/images/inmenu.png");
+}
+
+.wpercent {
+    display: flex;
+}
+
+.navcontent {
+    width:1000px;
+}
+
+nav {
+    background-color: #ddc1bd;
+    display: flex;
+    height: 60px;
+    width: 1030px;
+    justify-content: space-around;
+    margin: 10px 5px;
+    border-radius: 15px;
+}
+
+nav div {
+    background-color: #ddc1bd;
+    width: 150px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+nav div:hover {
+    background-color: #aa8c88;
+}
+
+/* nav div img {
+    /* cursor: pointer; */
+
+.home img:hover {
+    content: url("http://localhost//serverconvess/CONVESS%20START/images/home2.png");
+    transform: 10s;
+}
+
+.notification img:hover {
+    content: url("http://localhost//serverconvess/CONVESS%20START/images/wnot.png");
+}
+
+.message img:hover {
+    content: url("http://localhost//serverconvess/CONVESS%20START/images/wmes.png");
+}
+
+.profile img:hover {
+    content: url("http://localhost//serverconvess/CONVESS%20START/images/wprofile.png");
+}
+
+main {
+    width: 1025px;
+    background-color: transparent;
+    margin: 10px 10px 10px 5px;
+    height:465px;
+}
+
+main .homepage {
+    position:absolute;
+    background-color: transparent;
+    width:1025px;
+    height: 465px;
+    border-radius: 16px;
+    border:#836853 5px solid;
+    display: block;
+    overflow-y:scroll;
+}
+
+main .homepage .homepage1 {
+    background-color: #aa8c88;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0px 20px 250px;
+    padding: 0px 10px 5px 10px;
+    border-radius: 12px;
+}
+
+main .homepage .homepage1 p {
+    font-weight: 52px;
+}
+
+main .homepage .homepage1 form {
+    justify-content: center;
+
+}
+
+main .homepage .homepage2 {
+    width: 100%;
+    height: 20%;
+    background-color: #aa8c88;
+    border: #fFf 2px solid;
+    text-align: center;
+}
+
+main .notipage {
+    position: absolute;
+    background-color: blue;
+    width: 1025px;
+    height: 465px;
+    border-radius: 16px;
+    border:#836853 5px double;
+    display: none;
+    overflow-y:scroll;
+} 
+
+main .messpage {
+    position:absolute;
+    background-color: yellow;
+    width:1025px;
+    height: 465px;
+    border-radius: 16px;
+    border:#836853 5px double;
+    display: none;
+    overflow-y:scroll;
+}
+
+main .profilepage {
+    position:absolute;
+    background-color: green;
+    width:1025px;
+    height: 465px;
+    border-radius: 16px;
+    border:#836853 5px double;
+    display: none;
+    overflow-y:scroll;
+}

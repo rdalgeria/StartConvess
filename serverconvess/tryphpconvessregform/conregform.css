@@ -1,0 +1,73 @@
+
+body {
+    background-color: #f5e1da;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px 20px 20px;
+    width: fit-content;
+    text-align: center;
+  }
+
+  form p {
+    color: #6d5139;
+  }
+  
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  input[type="date"] {
+    border-color: #d3d3d3;
+  } 
+
+  input[type="submit"] {
+    background-color: #a77747;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5c3c20;
+  }
+
+  .navbutton {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}     .navbutton p {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #f5ece5;
+    margin-right: 30px;
+} .navbutton p a {
+    text-decoration: underline;
+    color: #d8a460;
+}
+
+.bottom {
+    background-color: #3d2e1a;
+}

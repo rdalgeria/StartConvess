@@ -1,0 +1,44 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#3d2e1a;
+}
+
+body {
+    background-color: #fcdbb0;
+}
+.container {
+    background-color: #C6A272;
+    width: 70%;
+    justify-self: center;
+    padding: 20px 10px 80px 10px;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+} .des {
+    text-align: center;
+    width: 70%;
+    
+} .des p {
+    font-size: 20px;
+}
+
+.avatar {
+    float: right;
+}
+.navbutton {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}     .navbutton p {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    color: #f5ece5;
+    margin-right: 30px;
+} .navbutton p a {
+    text-decoration: underline;
+    color: #d8a460;
+}
+
+.bottom {
+    background-color: #3d2e1a;
+}
